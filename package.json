@@ -1,6 +1,6 @@
 {
-  "name": "get-authorized-subscription-types",
-  "version": "1.0.0",
+  "name": "meshblu-core-task-get-authorized-subscription-types",
+  "version": "1.0.1",
   "description": "Meshblu core task get-authorized-subscription-types",
   "keywords": [
     "meshblu",
@@ -8,8 +8,8 @@
     "iot",
     "task"
   ],
-  "homepage": "https://github.com/octoblu/get-authorized-subscription-types",
-  "bugs": "https://github.com/octoblu/get-authorized-subscription-types/issues",
+  "homepage": "https://github.com/octoblu/meshblu-core-task-get-authorized-subscription-types",
+  "bugs": "https://github.com/octoblu/meshblu-core-task-get-authorized-subscription-types/issues",
   "author": {
     "name": "Octoblu",
     "url": "https://github.com/octoblu"
@@ -17,7 +17,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/octoblu/get-authorized-subscription-types.git"
+    "url": "https://github.com/octoblu/meshblu-core-task-get-authorized-subscription-types.git"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec --require coffee-coverage/register-istanbul"
