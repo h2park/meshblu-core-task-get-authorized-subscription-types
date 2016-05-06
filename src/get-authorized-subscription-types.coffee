@@ -1,12 +1,10 @@
 _    = require 'lodash'
 http = require 'http'
-DeviceManager = require 'meshblu-core-manager-device'
 
 class GetAuthorizedSubscriptionTypes
   AUTHORIZED_SUBSCRIPTION_TYPES: ['broadcast', 'received', 'sent', 'config', 'data']
 
   constructor: ({@datastore,@uuidAliasResolver}) ->
-    @deviceManager = new DeviceManager {@datastore}
 
   _doCallback: (request, code, data, callback) =>
     response =

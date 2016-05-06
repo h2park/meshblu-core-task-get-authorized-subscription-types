@@ -1,6 +1,6 @@
 {
   "name": "meshblu-core-task-get-authorized-subscription-types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Meshblu core task get-authorized-subscription-types",
   "keywords": [
     "meshblu",
@@ -24,8 +24,7 @@
   },
   "dependencies": {
     "coffee-script": "^1.10.0",
-    "lodash": "^4.6.1",
-    "meshblu-core-manager-device": "^1.2.0"
+    "lodash": "^4.6.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
